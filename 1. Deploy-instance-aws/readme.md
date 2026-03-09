@@ -48,6 +48,8 @@ Ports opened:
 
 ```bash
 ssh -i key.pem ubuntu@EC2_PUBLIC_IP
+before that check onces key.pem file permission
+you can change file permission like chmod 400 filename
 ```
 
 ---
