@@ -73,6 +73,7 @@ Clone repository or copy website files into the Nginx web root directory:
 
 ```bash
 sudo cp -r project-folder/* /var/www/html/
+  
 ```
 
 ---
@@ -91,6 +92,9 @@ Open in browser:
 
 ```
 http://EC2_PUBLIC_IP
+here i was faced one issue after copied my project into this path /var/www/html/
+it took deafult index-deafult.html to rectify this issue u can give root acces my projects or
+run the http://ec2_ip/project_folder_name/ thats it boom
 ```
 
 The website is now live from the EC2 server.
