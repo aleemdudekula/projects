@@ -94,7 +94,7 @@ Open in browser:
 http://EC2_PUBLIC_IP
 here i was faced one issue after copied my project into this path /var/www/html/
 it took deafult index-deafult.html to rectify this issue u can give root acces my projects or
-run the http://ec2_ip/project_folder_name/ thats it boom
+run the http://ec2_ip/project_folder_name/ thats it.
 ```
 
 The website is now live from the EC2 server.
